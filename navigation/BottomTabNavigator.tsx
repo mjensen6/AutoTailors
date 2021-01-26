@@ -5,12 +5,12 @@ import * as React from 'react';
 
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
-import ProfileScreen from '../screens/ProfileScreen';
-import DashboardScreen from '../screens/DashboardScreen';
-import InventoryScreen from '../screens/InventoryScreen';
-import SettingsScreen from '../screens/SettingsScreen';
-import PreferencesScreen from '../screens/PreferencesScreen';
-import DocumentsScreen from '../screens/DocumentsScreen';
+import ProfileScreen from '../screens/tabs/profile/ProfileScreen';
+import DashboardScreen from '../screens/tabs/dashboard/DashboardScreen';
+import InventoryScreen from '../screens/tabs/inventory/InventoryScreen';
+import SettingsScreen from '../screens/tabs/profile/SettingsScreen';
+import PreferencesScreen from '../screens/tabs/profile/PreferencesScreen';
+import DocumentsScreen from '../screens/tabs/profile/DocumentsScreen';
 
 import Icon from '../CustomIcon';
 

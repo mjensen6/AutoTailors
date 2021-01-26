@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "MyTSProject",
+    "name": "AutoTailors",
     "privacy":"public",
-    "slug": "MyTSProject",
+    "slug": "AutoTailors",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
