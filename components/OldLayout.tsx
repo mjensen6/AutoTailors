@@ -1,13 +1,13 @@
 import React, { ReactNode } from "react";
-import CarHeader from "./CarHeader";
+import Header from "./Header";
 
 type Props = {
   children: ReactNode;
 };
 
-const CarLayout: React.FC<Props> = (props) => (
+const Layout: React.FC<Props> = (props) => (
   <div>
-    <CarHeader />
+    <Header />
     <div className="layout">{props.children}</div>
     <style jsx global>{`
       html {
@@ -47,4 +47,4 @@ const CarLayout: React.FC<Props> = (props) => (
   </div>
 );
 
-export default CarLayout;
+export default Layout;
