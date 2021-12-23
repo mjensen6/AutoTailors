@@ -1,13 +1,10 @@
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from '../components/Layout';
+import Layout from '../components/TailLayout';
 
 const Home = () => (
-  <>
+  <div className="flex">
     <Layout>
-      <h1>home</h1>
     </Layout>
-  </>
+  </div>
 );
         
 export default Home;
